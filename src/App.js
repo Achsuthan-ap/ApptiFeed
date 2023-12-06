@@ -1,6 +1,7 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import HomeBody from './components/HomeBody';
 import { HeaderName, NavName } from './components/Header';
 import { FooterName, ImgOverlayExample } from './components/Footer';
 
@@ -9,10 +10,7 @@ function App() {
    < html>
   <HeaderName/>
   <NavName/>
-  <ImgOverlayExample/>
+  <HomeBody />
   <FooterName/>
-  </html>
-  );
-}
-
+  </html>)}
 export default App;
