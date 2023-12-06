@@ -8,8 +8,3 @@ export const FooterName = () => {
     </footer>
   );
 };
-export function ImgOverlayExample() {
-    return (
-     "a"
-    );
-  }
