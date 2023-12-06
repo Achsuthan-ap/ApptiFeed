@@ -7,11 +7,10 @@ import { FooterName, ImgOverlayExample } from './components/Footer';
 function App() {
   return (
    < html>
-   <HeaderName/>
-    <NavName/>
- <ImgOverlayExample/>
- <br/>
-    <FooterName/>
+  <HeaderName/>
+  <NavName/>
+  <ImgOverlayExample/>
+  <FooterName/>
   </html>
   );
 }
