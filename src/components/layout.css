@@ -1,0 +1,48 @@
+/* App.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  .container-fluid {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    flex: 1;
+    display: flex;
+  }
+  
+  header,
+  nav {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    transition: top 0.3s;
+  }
+  
+  main {
+    overflow-y: auto;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  aside {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-top: auto;
+  }
+  

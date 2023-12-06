@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 export const HeaderName = () => {
   return (
   <div className="headera">
-<img src="https://assets.ibcstack.com/web/bravo/it/img/logo.png" alt="" /></div>
+<img src="https://thinakkural.lk/img/logo.d74919e5.jpg" alt="" /></div>
   );
 };
 export const NavName= () => {

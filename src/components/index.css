@@ -77,11 +77,9 @@ font-size: small;
     background-color:#00426d ;
     padding: 10px 20px; /* Padding for the button */
     border: none; /* Remove border */
-    border-radius: 1px; /* Optional: Add border-radius for rounded corners */
+    border-radius: 0px; /* Optional: Add border-radius for rounded corners */
     cursor: pointer; /* Add a pointer cursor on hover */
       text-decoration: none;
-  
-      box-sizing: border-box;
       margin-right: 1px;
       margin-right: 1px;
       font-weight:bold;

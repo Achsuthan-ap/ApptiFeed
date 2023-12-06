@@ -7,9 +7,7 @@ import { Specallss } from './components/specall';
 function App() {
   return (
 <html>
-     
       <div className="container-fluid">
-      
         <div className="row">
         <HeaderName/>
         <NavName/>
