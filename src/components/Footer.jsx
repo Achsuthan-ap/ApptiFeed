@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-import Card from 'react-bootstrap/Card';
 export const FooterName = () => {
   return (
     <footer>

@@ -7,6 +7,20 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+  .rsb-sections a{
+    background-color:#ffffff ;
+    text-decoration: none;
+color: black;
+font-size: small;
+  }
+
+
+  .rsb-sections {
+    width: 400px;
+    border: 2;
+    border-color: #dc3545;
+  }
+
   .logo {
     font-family: "Your Font Here", sans-serif; /* Replace "Your Font Here" with the actual font you want to use */
     font-size: 24px; /* Adjust the font size */
@@ -52,7 +66,6 @@ body {
     text-decoration: none;
     transition: color 0.3s ease;
   }
-  
   nav a:hover {
     color: #dc3545;
     text-decoration: none;
@@ -61,22 +74,24 @@ body {
   nav a {
     color: #fff;
     text-decoration: none;
+    background-color:#00426d ;
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 1px; /* Optional: Add border-radius for rounded corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+      text-decoration: none;
+  
+      box-sizing: border-box;
+      margin-right: 1px;
+      margin-right: 1px;
+      font-weight:bold;
+  
   
 
   }
   a {
-    background-color:#00426d ;
-    padding: 10px 20px; /* Padding for the button */
-  border: none; /* Remove border */
-  border-radius: 1px; /* Optional: Add border-radius for rounded corners */
-  cursor: pointer; /* Add a pointer cursor on hover */
     text-decoration: none;
-
-    box-sizing: border-box;
-    margin-right: 1px;
-    margin-right: 1px;
-    font-weight:bold;
-
+    cursor: pointer;
   }
   a:hover {
     background-color: #ffffff; /* Change background color on hover */
@@ -101,4 +116,13 @@ body {
     bottom: 0;
     width: 100%;
   }
-  
+
+  .custom-height-image {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .rsb-sections a:hover {
+    background-color: #ffffff; /* Change background color on hover */
+    text-decoration: none;
+  }

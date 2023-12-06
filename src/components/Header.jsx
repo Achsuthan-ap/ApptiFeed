@@ -3,12 +3,8 @@ import "./index.css";
 import Card from 'react-bootstrap/Card';
 export const HeaderName = () => {
   return (
-
-
   <div className="headera">
 <img src="https://assets.ibcstack.com/web/bravo/it/img/logo.png" alt="" /></div>
-
-
   );
 };
 export const NavName= () => {
