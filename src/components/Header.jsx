@@ -1,6 +1,7 @@
 import React from "react";
 import "./index.css";
 import Card from 'react-bootstrap/Card';
+import { Link } from "react-router-dom";
 export const HeaderName = () => {
   return (
   <div className="headera">
@@ -26,9 +27,9 @@ export const NavName= () => {
              <a class="mc-8" href="#">
             Medicine 
             </a> 
-             <a class="mc-9" href="#">
+             <Link to="/sports-news">
             Sports
-            </a> 
+            </Link>
  
     </nav>
   );

@@ -2,7 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
-export const Specallss = () => {
+export const SpecialNews = () => {
     const customStyles = {
         paddingLeft: '110px',
       };
