@@ -18,6 +18,7 @@ function App() {
           <NavName />
           <main className="col-md-6 ms-sm-auto col-lg-9 px-md-4">
             <Routes>
+           
               <Route path="/news/:id" element={<NewsDetail />} />
               <Route path="/" element={<HomeBody />} />
               <Route path="/sports-news" element={<Sports />} />

@@ -48,13 +48,11 @@ font-size: small;
     text-align: center;
     
   }
+
   img{
     height: 40px;
   }
-  .card img{
-    height: 120px;
-    width: 190px;
-  }
+ 
   .article-item {
     display: flex;
     padding: 23px;
