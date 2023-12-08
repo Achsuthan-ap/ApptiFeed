@@ -13,7 +13,8 @@ body {
 color: black;
 font-size: small;
   }
-
+  @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+/* Option 2: Import via CSS */
 
   .rsb-sections {
     width: 400px;
@@ -49,6 +50,23 @@ font-size: small;
   }
   img{
     height: 40px;
+  }
+  .card img{
+    height: 120px;
+    width: 190px;
+  }
+  .article-item {
+    display: flex;
+    padding: 23px;
+  }
+  .article-item p {
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+  .article-footer{
+    margin-left: 500px;
+    font-size: 16px;
   }
   nav {
     background-color: #00426d;

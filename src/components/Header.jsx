@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const HeaderName = () => {
   return (
   <div className="headera">
-<img src="https://thinakkural.lk/img/logo.d74919e5.jpg" alt="" /></div>
+<img src="logo1.png" alt="" /></div>
   );
 };
 export const NavName= () => {
