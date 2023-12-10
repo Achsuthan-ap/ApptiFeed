@@ -8,30 +8,60 @@ import { Link } from 'react-router-dom';
 
 export default function HomeBody() {
     const newsData = [
-        {
-            id: 1,
-            heading: 'Sri Lanka edge out Afghanistan in low-scoring thriller',
-            content: ' This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
-            image: 'https://bmkltsly13vb.compat.objectstorage.ap-singapore-1.oraclecloud.com/cdn.sg.dailymirror.lk/assets/uploads/image_b2ec3f586d.jpg',
-        },
-        {
-            id: 2,
-            heading: 'Wade guides Australia to series-clinching win',
-            content: 'Australia were made to work hard in chasing a modest target of 125 but the steady hands of Matthew Wade took them to a series-clinching win in the second T20I against Sri Lanka at the R Premadasa Stadium yesterday.',
-            image: 'https://bmkltsly13vb.compat.objectstorage.ap-singapore-1.oraclecloud.com/cdn.sg.dailymirror.lk/assets/uploads/image_80ea81f0aa.jpg',
-        },
-        {
-            id: 3,
-            heading: 'Shanaka backs world-class bowling attack to succeed against World Champions',
-            content:"Sri Lanka's T20 captain Dasun Shanaka believes his team's world-class bowling line-up can rein in the World Cup-winning Australian batting line-up, starting with the first T20 International at the R. Premada Stadium today.",
-            image: 'https://bmkltsly13vb.compat.objectstorage.ap-singapore-1.oraclecloud.com/cdn.sg.dailymirror.lk/assets/uploads/image_b2cdd8cbed.jpg',
-        },
-        {
-            id: 4,
-            heading: 'Confident in how our game holds up in these conditions - Hazlewood',
-            content: 'Australian fast-bowler Josh Hazlewood said that his team will come into their multi-format tour of Sri Lanka carrying significantly more confidence in handling sub-continental conditions than was pres',
-            image: 'https://bmkltsly13vb.compat.objectstorage.ap-singapore-1.oraclecloud.com/cdn.sg.dailymirror.lk/assets/uploads/image_8886c6ae16.jpg',
-        },
+       {
+        sportsNews: [
+            {
+                id: 1,
+                heading: 'Sri Lanka edge out Afghanistan in low-scoring thriller',
+                content: ' This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+                image: 'https://bmkltsly13vb.compat.objectstorage.ap-singapore-1.oraclecloud.com/cdn.sg.dailymirror.lk/assets/uploads/image_b2ec3f586d.jpg',
+            },
+            {
+                id: 2,
+                heading: 'Wade guides Australia to series-clinching win',
+                content: 'Australia were made to work hard in chasing a modest target of 125 but the steady hands of Matthew Wade took them to a series-clinching win in the second T20I against Sri Lanka at the R Premadasa Stadium yesterday.',
+                image: 'https://bmkltsly13vb.compat.objectstorage.ap-singapore-1.oraclecloud.com/cdn.sg.dailymirror.lk/assets/uploads/image_80ea81f0aa.jpg',
+            },
+            {
+                id: 3,
+                heading: 'Shanaka backs world-class bowling attack to succeed against World Champions',
+                content:"Sri Lanka's T20 captain Dasun Shanaka believes his team's world-class bowling line-up can rein in the World Cup-winning Australian batting line-up, starting with the first T20 International at the R. Premada Stadium today.",
+                image: 'https://bmkltsly13vb.compat.objectstorage.ap-singapore-1.oraclecloud.com/cdn.sg.dailymirror.lk/assets/uploads/image_b2cdd8cbed.jpg',
+            },
+            {
+                id: 4,
+                heading: 'Confident in how our game holds up in these conditions - Hazlewood',
+                content: 'Australian fast-bowler Josh Hazlewood said that his team will come into their multi-format tour of Sri Lanka carrying significantly more confidence in handling sub-continental conditions than was pres',
+                image: 'https://bmkltsly13vb.compat.objectstorage.ap-singapore-1.oraclecloud.com/cdn.sg.dailymirror.lk/assets/uploads/image_8886c6ae16.jpg',
+            },
+        ],
+        politicsNews: [
+            {
+                id: 1,
+                heading: 'Sri Lanka edge out Afghanistan in low-scoring thriller',
+                content: ' This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+                image: 'https://bmkltsly13vb.compat.objectstorage.ap-singapore-1.oraclecloud.com/cdn.sg.dailymirror.lk/assets/uploads/image_b2ec3f586d.jpg',
+            },
+            {
+                id: 2,
+                heading: 'Wade guides Australia to series-clinching win',
+                content: 'Australia were made to work hard in chasing a modest target of 125 but the steady hands of Matthew Wade took them to a series-clinching win in the second T20I against Sri Lanka at the R Premadasa Stadium yesterday.',
+                image: 'https://bmkltsly13vb.compat.objectstorage.ap-singapore-1.oraclecloud.com/cdn.sg.dailymirror.lk/assets/uploads/image_80ea81f0aa.jpg',
+            },
+            {
+                id: 3,
+                heading: 'Shanaka backs world-class bowling attack to succeed against World Champions',
+                content:"Sri Lanka's T20 captain Dasun Shanaka believes his team's world-class bowling line-up can rein in the World Cup-winning Australian batting line-up, starting with the first T20 International at the R. Premada Stadium today.",
+                image: 'https://bmkltsly13vb.compat.objectstorage.ap-singapore-1.oraclecloud.com/cdn.sg.dailymirror.lk/assets/uploads/image_b2cdd8cbed.jpg',
+            },
+            {
+                id: 4,
+                heading: 'Confident in how our game holds up in these conditions - Hazlewood',
+                content: 'Australian fast-bowler Josh Hazlewood said that his team will come into their multi-format tour of Sri Lanka carrying significantly more confidence in handling sub-continental conditions than was pres',
+                image: 'https://bmkltsly13vb.compat.objectstorage.ap-singapore-1.oraclecloud.com/cdn.sg.dailymirror.lk/assets/uploads/image_8886c6ae16.jpg',
+            },
+        ]
+       }
         // Add more news articles as needed
     ];
 
@@ -50,18 +80,21 @@ export default function HomeBody() {
                     {/* Scrolling Content */}
                     <div style={{ overflowY: 'auto', maxHeight: '400px' }}>
                         <Row xs={1} md={2} className="g-4">
-                            {newsData.map((news) => (
-                                <Col key={news.id}>
-                                    <Link to={`/news/${news.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
-                                        <Card>
-                                            <Card.Img variant="top" className="custom-height-image" src={news.image} />
-                                            <Card.Body>
-                                                <Card.Title>{news.heading}</Card.Title>
-                                                <Card.Text>{news.content}</Card.Text>
-                                            </Card.Body>
-                                        </Card>
-                                    </Link>
-                                </Col>))}
+                            {newsData.map((newsType) =>
+                                newsType.sportsNews.map((news) => (
+                                    <Col key={news.id}>
+                                        <Link to={`/sports-news/${news.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+                                            <Card>
+                                                <Card.Img variant="top" className="custom-height-image" src={news.image} />
+                                                <Card.Body>
+                                                    <Card.Title>{news.heading}</Card.Title>
+                                                    <Card.Text>{news.content}</Card.Text>
+                                                </Card.Body>
+                                            </Card>
+                                        </Link>
+                                    </Col>
+                                ))
+                            )}
                         </Row>
                     </div>
                     <div className='text-right'>
