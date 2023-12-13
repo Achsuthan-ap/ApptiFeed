@@ -3,7 +3,7 @@ import "./index.css";
 export const FooterName = () => {
   return (
     <footer>
-      <p>&copy; 2023 Dynamics Website. All rights reserved.</p>
+      <p>&copy; 2023 ApptiFeed. All rights reserved.</p>
     </footer>
   );
 };

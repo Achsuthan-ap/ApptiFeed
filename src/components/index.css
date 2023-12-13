@@ -140,3 +140,16 @@ font-size: small;
     background-color: #ffffff; /* Change background color on hover */
     text-decoration: none;
   }
+
+  .h4WithBorder {
+    height: 40px;
+    background-color: #22408c;
+    color: white;
+    font-size: 24px;
+    padding: 6px;
+    border-radius: 5px;
+    font-family: 'Poynter';
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: rgb(244, 9, 0);
+  }

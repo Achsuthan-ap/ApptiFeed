@@ -66,9 +66,8 @@ export default function HomeBody() {
     ];
 
     const cardStyle = {
-        height: '500px',
-        overflow: 'auto',
-        overflowx: 'hidden',
+        overflowY: 'auto',
+        overflowx: 'auto',
     };
     /* Optional: Maintain aspect ratio and cover the container */
     return (
@@ -76,7 +75,7 @@ export default function HomeBody() {
             <br />
             <Container style={{ maxWidth: '1000px' }}>
                 <Card style={cardStyle}>
-                    <Card.Body style={{ backgroundColor: '#22408c', color: 'white', borderRadius: '5px', fontFamily: 'Arial, sans-serif' }}>Sports News</Card.Body>
+                    <Card.Title className="h4WithBorder">Sports News</Card.Title>
                     {/* Scrolling Content */}
                     <div style={{ overflowY: 'auto', maxHeight: '400px' }}>
                         <Row xs={1} md={2} className="g-4">
@@ -98,14 +97,14 @@ export default function HomeBody() {
                         </Row>
                     </div>
                     <div className='text-right'>
-                        <a className="rsb-sections" style={{ marginLeft: '800px' }}>Read More</a>
+                        <a href='/sports-news'className="rsb-sections" style={{ marginLeft: '800px' }}>Read More</a>
                     </div>
                 </Card>
             </Container>
             <br />
             <Container style={{ maxWidth: '1000px' }}>
                 <Card style={cardStyle}>
-                    <Card.Body style={{ backgroundColor: '#22408c', color: 'white', borderRadius: '5px', fontFamily: 'Arial, sans-serif' }}>Politics News</Card.Body>
+                <Card.Title className="h4WithBorder">Political News</Card.Title>
                     {/* Scrolling Content */}
                     <div style={{ overflowY: 'auto', maxHeight: '400px' }}>
                         <Row xs={1} md={2} className="g-4">
@@ -164,7 +163,7 @@ export default function HomeBody() {
 
             <Container style={{ maxWidth: '1000px' }}>
                 <Card style={cardStyle}>
-                    <Card.Body style={{ backgroundColor: '#22408c', color: 'white', borderRadius: '5px', fontFamily: 'Arial, sans-serif' }}>Medicine News</Card.Body>
+                <Card.Title className="h4WithBorder">Medicine News</Card.Title>
                     {/* Scrolling Content */}
                     <div style={{ overflowY: 'auto', maxHeight: '400px' }}>
                         <Row xs={1} md={2} className="g-4">
@@ -223,7 +222,7 @@ export default function HomeBody() {
 
             <Container style={{ maxWidth: '1000px' }}>
                 <Card style={cardStyle}>
-                    <Card.Body style={{ backgroundColor: '#22408c', color: 'white', borderRadius: '5px', fontFamily: 'Arial, sans-serif', height: '4px' }}>Economy News</Card.Body>
+                <Card.Title className="h4WithBorder">Economy News</Card.Title>
                     {/* Scrolling Content */}
                     <div style={{ overflowY: 'auto', maxHeight: '400px' }}>
                         <Row xs={1} md={2} className="g-4">

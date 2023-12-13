@@ -7,13 +7,12 @@ export const SpecialNews = () => {
     paddingLeft: '110px',
   };
   return (
+
     <>
       <Container style={{ maxWidth: '300px', margin: '20px' }}>
-
-        <h4><a style={{ paddingLeft: '30px', paddingRight: '30px',paddingBottom: '8px', backgroundColor: '#22408c', color: 'white', borderRadius: '5px', fontFamily: 'Arial, sans-serif', height: '4px' }}>Special News</a>
-        </h4>
+      <h4 className="h4WithBorder">Special News</h4>
         <Card border="primary" style={{ width: '18rem' }}>
-          <Card.Header><b>Sports</b></Card.Header>
+          <Card.Header><b>Sports News</b></Card.Header>
           <Card.Body>
 
             <Card.Title></Card.Title>
@@ -81,36 +80,6 @@ export const SpecialNews = () => {
               Massive tree crop planting program commences on Thursday
             </Card.Text>
             <b className="ms-5" style={customStyles}>1 hour ago</b>
-          </Card.Body>
-        </Card>
-        <br />
-        <Card border="primary" style={{ width: '18rem' }}>
-          <Card.Header><b>Sports News</b></Card.Header>
-          <Card.Body>
-
-            <Card.Title></Card.Title>
-            <Card.Text>
-              Confident in how our game holds up in these conditions - Hazlewood
-            </Card.Text>
-            <b className="ms-5" style={customStyles}>1 hour ago</b>
-          </Card.Body>
-        </Card>
-        <br />
-
-        <h4><a style={{ paddingLeft: '30px', paddingRight: '30px', backgroundColor: '#22408c', color: 'white', borderRadius: '5px', fontFamily: 'Arial, sans-serif', height: '4px' }}>Others</a>
-        </h4>
-        <Card >
-          <Card.Body>
-            <Card.Title>
-
-              <a href="#">Society news</a><br />
-              <a href="#">Cinema news</a><br />
-              <a href="#">Technology news</a><br />
-              <a href="#">World news </a><br />
-
-            </Card.Title>
-
-
           </Card.Body>
         </Card>
         <br />

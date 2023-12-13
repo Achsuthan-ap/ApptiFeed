@@ -35,9 +35,8 @@ export default function Sports() {
     return (
         <div>
             <br />
+            <Card.Title className="h4WithBorder" >Sports News</Card.Title><br/>
             <Card>
-                <Card.Title><a style={{ marginLeft: '30px', padding: '6px', backgroundColor: '#22408c', color: 'white', borderRadius: '5px', fontFamily: 'Arial, sans-serif', height: '4px' }}>Sports News</a>
-                    <Link to="/sports-news"><i class="bi bi-house" /></Link> </Card.Title>
                 <Card.Body>
                     <Row xs={1} md={1} className="g-4">
                         {sportsNews.map((news) =>
